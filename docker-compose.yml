@@ -3,7 +3,7 @@ version: '3.1'
 # Services line define which Docker images to run. In this case, it will be MySQL server and WordPress image.
 services:
    db:
-     platform: linux/x86_64
+    #  platform: linux/x86_64
      # image: mysql:5.7 indicates the MySQL database container image from Docker Hub used in this installation.
      image: mysql:5.7
      volumes:
